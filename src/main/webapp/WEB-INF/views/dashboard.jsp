@@ -13,17 +13,13 @@
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
 
-    <jsp:include page="blocks/header.jsp" />
+    <jsp:include page="blocks/dashboard/header.jsp" />
 
     <main class="px-3">
-        <h1>SchoolMate - Your Smart Companion in Education</h1>
-        <p class="lead">SchoolMate is an innovative and user-friendly platform designed to simplify school management and enhance communication between students, parents, and teachers. It provides an intuitive interface and powerful tools to keep everyone connected and informed, creating a modern educational environment.</p>
-        <p class="lead">
-            <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Start</a>
-        </p>
+        <h1>Dashboard</h1>
     </main>
 
-    <jsp:include page="blocks/footer.jsp"/>
+    <jsp:include page="blocks/dashboard/footer.jsp"/>
 </div>
 <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 

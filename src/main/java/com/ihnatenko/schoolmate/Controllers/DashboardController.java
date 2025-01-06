@@ -5,11 +5,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class StartController {
+public class DashboardController {
 
-    @RequestMapping("/")
-    public String start(Model model) {
-        model.addAttribute("header_action_link","start");
-        return "start";
-    }
+     @RequestMapping("/dashboard")
+    public String dashboard(Model model) {
+         model.addAttribute("header_action_link","home");
+         return "dashboard";
+     }
 }
