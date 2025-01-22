@@ -1,3 +1,10 @@
+:root{
+    --background-color: --bs-dark-rgb;
+    --background-color-2: rgb(58, 63, 69);
+    --color-text: rgba(255, 255, 255, .5);
+    --color-text-2: rgba(209, 209, 209, 0.5);
+}
+
 .cover-container{
     max-width: 80em;
 }
@@ -22,18 +29,22 @@
 
 
 .sidebar {
-    min-width: 250px;
-    max-width: 250px;
-    height: 100vh;
-    background-color: #343a40;
+    position: fixed;
+    height: 100%;
+    background-color: var(--background-color-2);
     color: #fff;
+    border-radius: 15px;
+    margin: 15px 0px;
+    width: auto;
 }
 .sidebar a {
-    color: #fff;
+    color: var(--color-text);
     text-decoration: none;
+
+    margin-bottom: 15px;
 }
 .sidebar a:hover {
-    background-color: #495057;
+    color: var(--color-text-2);
 }
 .content {
     flex-grow: 1;
